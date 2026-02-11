@@ -1,27 +1,27 @@
-<script>
+<script lang="ts">
     const logos = [
-        { name: 'Angi', hasCaseStudy: false },
-        { name: 'chime', hasCaseStudy: true, caseStudyText: 'CASE STUDY' },
-        { name: 'Airwallex', hasCaseStudy: false },
-        { name: 'ramp', hasCaseStudy: true, icon: true, caseStudyText: 'CASE STUDY' },
-        { name: 'carta', hasCaseStudy: true, caseStudyText: 'CASE STUDY' },
-        { name: 'upwork', hasCaseStudy: false },
-        { name: 'klaviyo', hasCaseStudy: false },
-        { name: 'Notion', hasCaseStudy: false, icon: true },
-        { name: 'HubSpot', hasCaseStudy: false },
-        { name: 'Hard Rock', hasCaseStudy: false },
-        { name: 'MAGELLAN JETS', hasCaseStudy: false },
+        { name: 'Brenntag', hasCaseStudy: false },
+        { name: 'Univar', hasCaseStudy: true, caseStudyText: 'CASE STUDY' },
+        { name: 'Helm AG', hasCaseStudy: false },
+        { name: 'Tricon', hasCaseStudy: true, icon: true, caseStudyText: 'CASE STUDY' },
+        { name: 'IMCD', hasCaseStudy: true, caseStudyText: 'CASE STUDY' },
+        { name: 'Azelis', hasCaseStudy: false },
+        { name: 'Biesterfeld', hasCaseStudy: false },
+        { name: 'DKSH', hasCaseStudy: false, icon: true },
+        { name: 'Stockmeier', hasCaseStudy: false },
+        { name: 'Omya', hasCaseStudy: false },
+        { name: 'Nordmann', hasCaseStudy: false },
         { name: 'logo_circle', hasCaseStudy: false, isImage: true }, // Placeholder for the black circle logo
-        { name: 'sproutsocial', hasCaseStudy: false, icon: true },
-        { name: 'GONG', hasCaseStudy: false, icon: true },
-        { name: 'Sage', hasCaseStudy: false }
+        { name: 'Caldic', hasCaseStudy: false, icon: true },
+        { name: 'Safic-Alcan', hasCaseStudy: false, icon: true },
+        { name: 'Oqema', hasCaseStudy: false }
     ];
 </script>
 
 <section class="py-12 bg-white border-b border-gray-200 font-sans">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p class="text-center text-[10px] uppercase tracking-widest text-brand-green font-bold mb-8">
-            JOIN THE BEST BRANDS IN THE WORLD WINNING ON AIROPS
+        <p class="text-center text-[10px] uppercase tracking-widest text-[#00ff66] font-bold mb-8">
+            TRUSTED BY THE WORLD'S LEADING CHEMICAL DISTRIBUTORS
         </p>
 
         <div class="grid grid-cols-2 md:grid-cols-5 gap-0 border-t border-l border-gray-200">
@@ -43,7 +43,7 @@
                     {/if}
 
                     {#if logo.hasCaseStudy}
-                        <a href="#" class="absolute top-2 right-2 text-[8px] font-bold text-pink-600 bg-pink-50 px-1.5 py-0.5 rounded border border-pink-100 hover:bg-pink-100 flex items-center transition-colors">
+                        <a href="#" class="absolute top-2 right-2 text-[8px] font-bold text-emerald-600 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-100 hover:bg-emerald-100 flex items-center transition-colors">
                             {logo.caseStudyText} 
                             <svg class="w-2 h-2 ml-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                         </a>

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Navbar from '$lib/components/Navbar.svelte';
     import Hero from '$lib/components/Hero.svelte';
     import LogoGrid from '$lib/components/LogoGrid.svelte';
